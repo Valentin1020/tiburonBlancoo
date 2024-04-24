@@ -1,0 +1,190 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    margin: 0px;
+    background-color: #d8e8f5;
+    color: #297685;
+}
+header {
+    text-align: center;
+    background-color: #6ca2ba;
+    padding: 20px;
+    color: #d8e8f5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    background-color: #297685;
+    overflow: hidden;
+}
+nav a {
+    display: block;
+    padding: 12px 16px;
+    float: left;
+    color: #bbd0db;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #d8e8f5;
+    color: #297685;
+}
+main {
+    margin: 80px 80px 180px;
+}
+footer {
+    text-align: center;
+    background-color: #297685;
+    padding: 16px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+footer p {
+    color: #bbd0db;
+}
+p {
+    color: #297685;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ol {
+    color: #297685;
+}
+
+/*inicio*/
+
+#tiburon {
+    padding: 30px 450px 30px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d8e8f5;
+    background: #6ca2ba url("../imagenes/puntero-blanco.jpg") no-repeat right;
+}
+#caracteristicas {
+    background-color:#6ca2ba;
+    padding: 30px 30px 30px 400px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d8e8f5;
+    background-image: url("../imagenes/tiburon.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#vive {
+    background-color:#6ca2ba;
+    padding: 30px 30px 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d8e8f5; 
+    background-image: url("../imagenes/Características-del-Tiburón-Blanco.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+/*Fin de inicio*/
+
+/*Detalles*/
+
+table, th, td {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid #6ca2ba;
+    border-collapse: collapse;
+}
+th, td {
+    border-color: #6ca2ba;
+}
+th, td {
+    background-color: #297685;
+}
+th {
+    color: #d8e8f5;
+}
+td {
+    text-align: center;
+    color: #bbd0db;
+}
+#mapa {
+    padding: 400px 0px 10px 0px;
+    background-image: url("../imagenes/mapa.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#alimento {
+    padding: 10px 350px 10px 0px;
+    background-image: url("../imagenes/alimento.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#alimento2 {
+    padding: 10px 350px 50px 0px;
+    background-image: url("../imagenes/alimento2.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#alimento1 {
+    padding: 10px 350px 50px 0px;
+    background-image: url("../imagenes/alimento1.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#tibu {
+    padding: 10px 0px 400px 0px;
+    background-image: url("../imagenes/tibu.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#tiburones {
+    padding: 10px 500px 50px 0px;
+    background-image: url("../imagenes/tiburones.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+/*Fin de detalles*/
+
+/*Galeria*/
+
+div.galeria {
+    margin: 10px 50px;
+    float: left;
+    width: 160px;
+}
+div.galeria:hover {
+    border: 1px solid #d8e8f5;
+}
+div.galeria img {
+    width: 250px;
+    height: 200px;
+    border: #297685 solid 1px;
+}
+
+/*Fin de la galeria*/
+
+/*Pagina de contacto*/
+
+form {
+    margin: 0 auto;
+    padding: 45px 60px;
+    border: #297685 solid 1px;
+    text-align: left;
+    width: 340px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+form h2 {
+    font-size: 35px;
+}
+label {
+    color: #297685;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+input, textarea {
+    padding: 15px 25px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    background-color: #6ca2ba;
+    border: 2px solid #297685;
+    color: #d8e8f5;
+    outline: none;
+}
+
+/* final de contacto*/
